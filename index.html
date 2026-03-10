@@ -6,7 +6,7 @@
         :root {
          --wide-text-area: 200px;
          --narrow-text-area: 150px;
-        --blue-text-area: cyan;
+        --blue-text-area:
              
         }
         @media ( max-wdith: 120px)
@@ -17,12 +17,10 @@
         }
          
         .wide-text {
-            width: 200px;
+            width: 200px; var( --narrow-text-area );
             border-style: solid;
             padding: 10px;
         }
-        .narrow-blue {
-            width: var( --narrow-text-area );
     </style>
 </head>
 
